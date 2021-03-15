@@ -1,5 +1,8 @@
+-- Step1 -- 
 CREATE DATABASE cityweather
 
+
+-- Step2 -- 
 CREATE TABLE city(
   city_id SERIAL PRIMARY KEY,
   city VARCHAR(20),
