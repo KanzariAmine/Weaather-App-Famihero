@@ -1,4 +1,4 @@
-# Weaather-App-Famihero
+# Weather-App-Famihero
 
 ## Quick Start:
 
