@@ -45,15 +45,17 @@ WEATHER_API_KEY= ADD_YOUR_API_KEY_FOR_WEATHER_API
 #### Step 6:  Install the dependencies for project
 ```bash
 # Go to server folder to install dependencies
-npm install 
+$ cd server
+$ npm install 
 # Go to client folder to install dependencies
-npm install 
+$ cd client
+$ npm install 
 ```
 
 #### Step 7: Run a project
 ```bash
 # Open Terminal go to server folder 
-npm run dev
+$ npm run dev
 ```
 ### Note
 ```bash
