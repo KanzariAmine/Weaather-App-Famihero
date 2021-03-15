@@ -8,19 +8,19 @@
 # Install Nodejs 
 https://github.com/nvm-sh/nvm
 
-#Install PostgreSQL
+# Install PostgreSQL
 https://www.postgresqltutorial.com/install-postgresql-linux/
 ```
 
 #### Step 2: Create data base 
 ```bash
-#Copy this command in terminal to open postgreSQL CLI
+# Copy this command in terminal to open postgreSQL CLI
 psql -U postgres -h localhost 
 
 # Add a password to postgres (super user by default)
 ALTER USER postgres PASSWORD <'your password'>;
 
-#Create the Data base and the Array 
+# Create the Data base and the Array 
 "You can find the command in database.sql file"
 
 ```
@@ -44,19 +44,19 @@ WEATHER_API_KEY= ADD_YOUR_API_KEY_FOR_WEATHER_API
 ```
 #### Step 6:  Install the dependencies for project
 ```bash
-#Go to server folder to install dependencies
+# Go to server folder to install dependencies
 npm install 
-#Go to client folder to install dependencies
+# Go to client folder to install dependencies
 npm install 
 ```
 
 #### Step 7: Run a project
 ```bash
-#Open Terminal go to server folder 
+# Open Terminal go to server folder 
 npm run dev
 ```
 ### Note
 ```bash
-#For more information a bout PostgreSQL
+# For more information a bout PostgreSQL
 https://www.postgresqltutorial.com/
 ```
